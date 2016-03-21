@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Bike Trails</string>
+    <string name="logging">Loguję....</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="give_login">Login</string>
+    <string name="password">Hasło</string>
+    <string name="login_screen_password_hint">Wpisz swoje hasło</string>
+    <string name="login_screen_hint_username">Wpisz swój login</string>
+    <string name="login_button">Zaloguj</string>
+    <string name="login_as_guest">Zaloguj jako gość</string>
+    <string name="Login_To_Account">Logowanie użytkownika</string>
+    <string name="register">Zarejestruj się</string>
+    <string name="type_username">Podaj swój login</string>
+    <string name="connectionToDBFailed">Połączenie z bazą danych nie powiodło się</string>
+    <string name="sortBy">Sortuj według</string>
+    <string name="distance">Dystans ▼</string>
+    <string name="time">Czas▼</string>
+    <string name="calories">Kalorie ▼</string>
+    <string name="mytrails">Moje trasy</string>
+    <string name="backToMap">Wróc</string>
+    <string name="time_space_000000">Czas: 00:00:00</string>
+    <string name="pleaseProvideNameForYourTrail">Proszę podać nazwe nowej trasy</string>
+    <string name="name">Nazwa</string>
+    <string name="start">Start</string>
+    <string name="pause">Pauza</string>
+    <string name="browseTrails">Wszystkie trasy</string>
+    <string name="yourMailAdress">Twój adres email</string>
+    <string name="repeatYourPassword">Powtórz hasło</string>
+    <string name="avgSpeed">Śr. pred.</string>
+    <string name="calories0">Kalorie 0</string>
+    <string name="unavailable">Niedostępne</string>
+    <string name="MapActivitySpeed">Śr. pręd.: 0.00 km/h</string>
+    <string name="MapActivityDistance">Dystans 0.00 km</string>
+    <string name="mytrailsbutton">Moje trasy</string>
+    <string name="distanceSpace">"Dystans: "</string>
+    <string name="SpeedSpace">"Śr. pręd.: "</string>
+    <string name="caloriesSpace">"Kalorie: "</string>
+    <string name="locationServicesSuspended">Usługi lokalizujące są wyłączone</string>
+    <string name="caloriesburned">"Spalone kalorie: "</string>
+    <string name="timeSpace">"Czas trwania: "</string>
+    <string name="avgspeedSpace">"śr. pręd.: "</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_screen_layout"
+    android:background="#437ae8"
+    android:gravity="center_horizontal"
+    android:clickable="true">
+
+    <ImageView
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:src="@drawable/mountain_bike_icon"
+        android:id="@+id/logo"
+        />
+
+    <Button
+        android:layout_width="@dimen/welcome_screen_button_size"
+        android:layout_below="@id/logo"
+        android:layout_height="wrap_content"
+        android:text="@string/Login_To_Account"
+        android:textSize="@dimen/loginScreenFontSize"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/log_in_button_background"
+        android:id="@+id/loginToAccountButton"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="@dimen/welcome_screen_button_size"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="@dimen/loginScreenFontSize"
+        android:onClick="goToRegisterFragment"
+        android:background="@drawable/log_in_button_background"
+        android:id="@+id/goToRegisterScreenButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loginToAccountButton"
+        android:layout_marginTop="35dp"
+        />
+
+
+    <Button
+        android:layout_width="@dimen/welcome_screen_button_size"
+        android:layout_height="wrap_content"
+        android:text="@string/login_as_guest"
+        android:textSize="@dimen/loginScreenFontSize"
+        android:layout_gravity="center_horizontal"
+        android:onClick="ignoreLogin"
+        android:background="@drawable/log_in_button_background"
+        android:id="@+id/ignoreLoginButton"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/goToRegisterScreenButton"
+        android:layout_centerHorizontal="true"
+        />
+
+    </RelativeLayout>

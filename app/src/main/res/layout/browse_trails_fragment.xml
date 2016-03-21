@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/browseTrails"
+        android:layout_weight="10"
+        android:background="#000000"
+        android:textStyle="normal"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="#abcdef"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="12"
+            android:text="@string/sortBy"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="22"
+            android:text="@string/distance"
+            android:textSize="12sp"
+            android:onClick="sortDistance"
+            android:id="@+id/sortDistButton"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="22"
+            android:text="@string/time"
+            android:textSize="12sp"
+            android:onClick="sortTime"
+            android:id="@+id/sortTimeButton"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="22"
+            android:text="@string/calories"
+            android:textSize="12sp"
+            android:onClick="sortCalories"
+            android:id="@+id/sortCaloriesButton"
+            />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        android:id="@+id/browseTrailsListview"
+
+        >
+
+
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+
+
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/mytrails"
+            android:layout_weight="1"
+            android:background="#abcdef"
+            android:id="@+id/browsetrails_to_mytrails_button"
+            android:onClick="gotoMyTrails"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/backToMap"
+            android:layout_weight="1"
+            android:background="#abcdef"
+            android:id="@+id/backToMap"
+            android:onClick="backToMap"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
